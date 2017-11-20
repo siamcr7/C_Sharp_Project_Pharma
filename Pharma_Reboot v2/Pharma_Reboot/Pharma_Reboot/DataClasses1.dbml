@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JAMIL-NOTEBOOK\SQLEXPRESS;Initial Catalog=Database1;Integrated Security=True" SettingsObjectName="Pharma_Reboot.Properties.Settings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CatagoryTable" Member="CatagoryTables">
+    <Type Name="CatagoryTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CatagoryTable_SalesTable" Member="SalesTables" ThisKey="Id" OtherKey="CatagoryID" Type="SalesTable" />
+      <Association Name="CatagoryTable_DrugTable" Member="DrugTables" ThisKey="Id" OtherKey="CatagoryId" Type="DrugTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SalesTable" Member="SalesTables">
+    <Type Name="SalesTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DrugID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DrugName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CatagoryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StaffID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuantitySold" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[Profit/Loss]" Member="Profit_Loss" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CatagoryTable_SalesTable" Member="CatagoryTable" ThisKey="CatagoryID" OtherKey="Id" Type="CatagoryTable" IsForeignKey="true" />
+      <Association Name="UserLogIN_SalesTable" Member="UserLogIN" ThisKey="StaffID" OtherKey="Id" Type="UserLogIN" IsForeignKey="true" />
+      <Association Name="DrugTable_SalesTable" Member="DrugTable" ThisKey="DrugID" OtherKey="Id" Type="DrugTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderTable" Member="OrderTables">
+    <Type Name="OrderTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DrugID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DrugName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QuantityToAdd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AdminID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OrderReceiveDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VendorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="VendorTable_OrderTable" Member="VendorTable" ThisKey="VendorID" OtherKey="Id" Type="VendorTable" IsForeignKey="true" />
+      <Association Name="UserLogIN_OrderTable" Member="UserLogIN" ThisKey="AdminID" OtherKey="Id" Type="UserLogIN" IsForeignKey="true" />
+      <Association Name="DrugTable_OrderTable" Member="DrugTable" ThisKey="DrugID" OtherKey="Id" Type="DrugTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VendorTable" Member="VendorTables">
+    <Type Name="VendorTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="VendorTable_OrderTable" Member="OrderTables" ThisKey="Id" OtherKey="VendorID" Type="OrderTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserLogIN" Member="UserLogINs">
+    <Type Name="UserLogIN">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="role" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DateEmployed" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PicLink" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="LastLoginTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastLogoutTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" CanBeNull="false" />
+      <Association Name="UserLogIN_SalesTable" Member="SalesTables" ThisKey="Id" OtherKey="StaffID" Type="SalesTable" />
+      <Association Name="UserLogIN_OrderTable" Member="OrderTables" ThisKey="Id" OtherKey="AdminID" Type="OrderTable" />
+      <Association Name="UserLogIN_SessionTable" Member="SessionTables" ThisKey="Id" OtherKey="UserID" Type="SessionTable" />
+      <Association Name="UserLogIN_PaymentTable" Member="PaymentTables" ThisKey="Id" OtherKey="UserId" Type="PaymentTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugTable" Member="DrugTables">
+    <Type Name="DrugTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CatagoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BatchNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="QuantityBought" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuantitySold" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SellingPricePerUnit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BuyingCostPerUnit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="DrugTable_SalesTable" Member="SalesTables" ThisKey="Id" OtherKey="DrugID" Type="SalesTable" />
+      <Association Name="DrugTable_OrderTable" Member="OrderTables" ThisKey="Id" OtherKey="DrugID" Type="OrderTable" />
+      <Association Name="CatagoryTable_DrugTable" Member="CatagoryTable" ThisKey="CatagoryId" OtherKey="Id" Type="CatagoryTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SessionTable" Member="SessionTables">
+    <Type Name="SessionTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LogInTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LogOutTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="UserLogIN_SessionTable" Member="UserLogIN" ThisKey="UserID" OtherKey="Id" Type="UserLogIN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PaymentTable" Member="PaymentTables">
+    <Type Name="PaymentTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DateOfPayment" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PaymentAmount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExtraBonus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="UserLogIN_PaymentTable" Member="UserLogIN" ThisKey="UserId" OtherKey="Id" Type="UserLogIN" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

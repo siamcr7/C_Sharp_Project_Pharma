@@ -1,0 +1,63 @@
+1.	When the app is first opened directly a log in page comes in.
+2.	In the registration page after registration a message box will be shown saying to wait for admin approval.
+3.	Username and password must be given to enter with validation.
+4.	There is a box that shows if user name and password do not matches.
+5.	If it matches then a dialog box pops up saying which type of user is logged in now.
+6.	We are now first going in as admin.
+7.	An admin can edit and view all the tables in DB from the menu bar. Nothing special there.
+8.	An admin can view the report page from the menu bar.
+9.	In the report page he can see the detailed info of sales. In this view the admin can see which product is sold at what time by which employee. 
+10.	Also in this view he can see the total profit loss.
+11.	In this page an admin can also search what is total profit loss for a given time period, for a specific product name, for a specific product type, for a specific batch no. Also he can find out for a specific staff the total profit loss.
+12.	This page also has a button that resets the whole view. 
+13.	Now back to the admin page. 
+14.	From the menu bar, the admin can select the staff payment option.
+15.	In this page by typing a name of a staff the payment date, payment amount, extra bonus of that staff will be visible.
+16.	Also in another table in the same page the total work hour of that staff along with full details of login and logout time of each day in that time period will be shown for that staff that is searched.
+17.	There is an option to pay the staff. 
+18.	If the payment is successful then a confirmation box will be visible and dynamically the payment info table will show with the update.
+19.	Now back to the admin page.
+20.	Now there is big table that shows the information of all the users of the system.
+21.	In the table if you click on the username of any user an individual profile will be shown.
+22.	Also there is a searching option by id or name just under the table.
+23.	In this page the admin has the power to add, update any information of the existing user. Also he can fire someone.
+24.	To make things easier for new admins there is box that says how to add update and fire a user.
+25.	Also just by giving the id and clicking the fetch data button all the data will be fetched to make the update easier. 
+26.	Now to the notifications systems.
+27.	There is a warning system on the upper left corner that shows the number of warnings. 
+28.	By clicking on that warning a warning page will be loaded.
+29.	In that page admin will see the warning table. The warning table consists of the products that are expired or out of stock and also the products that will be expired within 60 days or any products that are available less than 20 units.
+30.	There is also a vendor table with the details of the vendors.
+31.	In this page the admin can also place an order by simple selecting the product and the vendor from which he will be buying the product.
+32.	After pressing the “add to order list” there will be message to check the order list. 
+33.	Now back to the admin page, the warning number will be updated also there will be a new notification that will say how many orders are pending.
+34.	By clicking that admin will go into the order page.
+35.	In this page he will see initially see only the orders that are pending. Also there is a option to see all the orders.
+36.	Now admin can simply select a product and select the status of that product (whether it is ordered or received from the vendor). Also he can select the selling price and buying price which will help to prepare the profit loss report.
+37.	If you select to order, there will be no need to give the buying and selling price so those boxes will be hidden.
+38.	Also a pending product must be ordered first then an order product will be received.
+39.	So after successfully ordering a product a message will be shown and the table will be updated. 
+40.	Then while receiving the product a new expired date must be given along with buying and selling price. This will be considered as a new batch of product.
+41.	Product ordering is done now back to admin page. The pending order notification will be updated.
+42.	There is another notification at the lower left corner of the user table in admin page that shows the number of notification of the pending accounts that needs admin approval.
+43.	There is no clicking option there so an admin can update that user using the update option in the admin page.
+44.	Now while logging out a box will be shown that will tell the last login and logout time.
+45.	Now let's login as staff/employee.
+46.	In the menu bar of the salesInfo Page there is a option that will handle the return of any product.
+47.	After clicking that editSales page will come and in that page the whole sales info will be shown. 
+48.	There the staff can select a desired transaction and select the numbers of quantity that are being returned.
+49.	After clicking the update button a small summery will be shown. The sales table will be updated as well.
+50.	Back to the salesInfo Page.
+51.	First of all the staff can search for the product by simple typing some letters of that product and also by category.
+52.	The staff can only see the products that are not expired and not out of stock.
+53.	Now if the staf select any product it will be selected in DurgID text box and after typing in the quantity amount, the staff can add the product by pressing the “add to receipt” button. 
+54.	Also there is a check to make sure the staff by accident cannot order more than of the current stock.
+55.	As soon as a product is added to the cart total cost will be updated dynamically.
+56.	There is a option to delete from the cart.
+57.	That can be done by simple selecting that product form the cart and press delete from the recipt button. Total cost will be adjusted by itself.
+58.	Now when the customer gives any amount of money, the staff can put that in the given amount box and press calculate return to see how much to return.
+59.	Now after pressing the SELL button the sale transaction will be done. A short summery will be shown.
+60.	There is button to clear the receipt.
+61.	Also there is a warning notification which only allows the staff to view the warnings so that he can inform the admins.
+62.	Also there is a go to profile button to the upper right corner that will take the staff to his profile.
+63.	He can update his profile.

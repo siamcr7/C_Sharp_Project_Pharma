@@ -1,0 +1,64 @@
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.exe.config
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Form1.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Properties.Resources.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.csproj.GenerateResource.Cache
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.exe
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.pdb
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.exe
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.pdb
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.AdminPage.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.SalesInfo.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Report_Page.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.StaffDetails.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.StaffProfile.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.WarningPage.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.csprojResolveAssemblyReference.cache
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.OrderPage.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.exe.config
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.exe
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.pdb
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.exe
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.pdb
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.csprojResolveAssemblyReference.cache
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.OrderPage.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Report_Page.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.SalesInfo.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.StaffDetails.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.StaffProfile.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.WarningPage.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.AdminPage.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Form1.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Properties.Resources.resources
+E:\Chrome\Pharma_Reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.csproj.GenerateResource.Cache
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditOrder.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditVendor.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditDrug.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.PaymentPage.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.RegisterPage.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.SearchAndView.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditCatagory.resources
+D:\DropBox Sync\Dropbox\C#\Project_Pharma\reboot\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditSales.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.exe.config
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.exe
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.pdb
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.exe
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\bin\Debug\Pharma_Reboot.pdb
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.csprojResolveAssemblyReference.cache
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditDrug.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditCatagory.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditOrder.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditSales.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.EditVendor.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.OrderPage.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.PaymentPage.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.RegisterPage.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Report_Page.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.SalesInfo.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.SearchAndView.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.StaffDetails.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.StaffProfile.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.WarningPage.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.AdminPage.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Form1.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.Properties.Resources.resources
+D:\Google Drive Sync\! SSD\Other Prog. Lang\C#\Project_Pharma\reboot\Stable Versions\Project v2\Pharma_Reboot v2\Pharma_Reboot\Pharma_Reboot\obj\Debug\Pharma_Reboot.csproj.GenerateResource.Cache

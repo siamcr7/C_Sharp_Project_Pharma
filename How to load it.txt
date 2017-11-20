@@ -1,0 +1,11 @@
+Make sure you have installed MS SQL server data tools [not latest, but according to your VS version] also latest SQL Server Management Studio
+open SQL Server Management Studio
+select connect
+make sure the database1 is in the left dashboard and all the necesarry tables are there. If not attach the database1.mdf file. [For more info see : https://stackoverflow.com/questions/3971727/sql-how-to-backup-a-database-and-export-as-a-mdf-file-with-ms-sql-2008-r2]
+open VS
+load .sln file
+tools -> connect to database
+select SQL server.
+server name : JAMIL-NOTEBOOK\SQLEXPRESS or see it in the SQL Server Management Studio. in the propertise it is written there. 
+database : database1
+Test connection. If all are okay, it will be successful.
